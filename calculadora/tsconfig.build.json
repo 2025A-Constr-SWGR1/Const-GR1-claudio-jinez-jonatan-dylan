@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
   "extends": "./tsconfig.json",
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
 }
 =======
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9
 {
   "extends": "./tsconfig.json",
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
 }
+<<<<<<< HEAD
 >>>>>>> 6c3af48 (Subiendo todos los archivos desde la nueva computadora)
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9

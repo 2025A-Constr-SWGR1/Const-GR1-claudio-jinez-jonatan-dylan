@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
@@ -25,6 +26,8 @@ describe('AppController (e2e)', () => {
   });
 });
 =======
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
@@ -50,4 +53,7 @@ describe('AppController (e2e)', () => {
       .expect('Hello World!');
   });
 });
+<<<<<<< HEAD
 >>>>>>> 6c3af48 (Subiendo todos los archivos desde la nueva computadora)
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9

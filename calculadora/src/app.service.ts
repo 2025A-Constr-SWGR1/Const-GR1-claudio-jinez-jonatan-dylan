@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -8,6 +9,8 @@ export class AppService {
   }
 }
 =======
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -21,4 +24,7 @@ export class AppService {
     return 'Hello World!';
   }
 }
+<<<<<<< HEAD
 >>>>>>> 6c3af48 (Subiendo todos los archivos desde la nueva computadora)
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9

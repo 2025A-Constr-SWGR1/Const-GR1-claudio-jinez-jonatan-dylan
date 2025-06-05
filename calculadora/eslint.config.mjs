@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // @ts-check
 import eslint from '@eslint/js';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
@@ -33,6 +34,8 @@ export default tseslint.config(
     },
   },
 =======
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9
 // @ts-check
 import eslint from '@eslint/js';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
@@ -67,5 +70,8 @@ export default tseslint.config(
       'no-console': ["error", { allow: ["warn", "error"] }]
     },
   },
+<<<<<<< HEAD
 >>>>>>> 6c3af48 (Subiendo todos los archivos desde la nueva computadora)
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9
 );

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
@@ -12,6 +13,8 @@ export class AppController {
   }
 }
 =======
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
@@ -24,4 +27,7 @@ export class AppController {
     return this.appService.getHello();
   }
 }
+<<<<<<< HEAD
 >>>>>>> 6c3af48 (Subiendo todos los archivos desde la nueva computadora)
+=======
+>>>>>>> 6c3af48c2a4d0ae3b4fc657cd5be8d174cf28bf9
