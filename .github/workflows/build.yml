@@ -15,7 +15,7 @@ jobs:
         working-directory: ./calculadora
         run: |
             npm install
-      - name: Instalar dependencias
+      - name: Compilar el aplicativo
         working-directory: ./calculadora
         run: |
             npm run build
