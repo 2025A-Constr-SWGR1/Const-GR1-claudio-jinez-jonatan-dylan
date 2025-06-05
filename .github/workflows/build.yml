@@ -14,7 +14,7 @@ jobs:
       - name: Instalar dependencias
         working-directory: ./calculadora
         run: |
-            npm ci
+            npm install
       - name: Instalar dependencias
         working-directory: ./calculadora
         run: |
