@@ -1,6 +1,1 @@
-carlos|Claudio|Aplicaciones web|GR1|12|16|14.0|APROBADO
-carlos|Claudio|Aplicaciones web|GR1|12|16|14.0|APROBADO
-Sergio|Guaman|Aplicaciones web|GR2|12|11|11.5|SUPLETORIO
-Sergio|Contreras|Aplicaciones web|GR2|7|1|4.0|REPROBADO
-Sergio|Contreras|Aplicaciones web|GR2|7|1|4.0|REPROBADO
-Mateo|Duran|Aplicaciones Web|GR1|20|13|16.5|APROBADO
+Estu|Uno|Mate|gr1|14|15|14.5|APROBADO

@@ -1,0 +1,27 @@
+# Imagen base
+FROM python:3.11-slim
+
+# Establecer directorio de trabajo
+WORKDIR /app
+
+# Instalar dependencias de Tkinter a nivel del sistema
+# Estas son las librerías necesarias para que Tkinter (y por lo tanto customtkinter) funcione
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    tk \
+    tk-dev \
+    tcl \
+    tcl-dev && \
+    rm -rf /var/lib/apt/lists/*
+
+# Copiar archivos necesarios
+COPY SistemaNotas.py .
+COPY registro.txt .
+COPY estudiantes.txt .
+COPY requirements.txt .
+
+# Instalar dependencias de Python
+RUN pip install -r requirements.txt
+
+# Ejecutar la aplicación
+CMD ["python", "SistemaNotas.py"]
