@@ -1,0 +1,24 @@
+name: Flujo de calidad - Python
+run-name: Build  SistemaNotas app
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: [self-hosted]
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v3
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+      - name: Verificar errores de sintaxis
+        run: python -m py_compile SistemaNotas.py
+      - name: Ejecutar lint
+        run: python -m pylint SistemaNotas.py
+      - name: Ejecutar pruebas
+        run: python -m unittest testSistemaNotas.py
